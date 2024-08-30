@@ -1,0 +1,36 @@
+.header{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 1em 1em 0em 0em;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.237);
+    flex: 0 1 auto;
+}
+
+.header h2{
+    color: rgba(255, 255, 255, 0.608);
+    font-weight: 600;
+}
+
+.signInBtn {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 0.5em;
+    background-color: rgba(255, 255, 255, 0.263);
+    border: 1px solid rgba(255,255,255,0.263);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.signInBtn:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+.signInBtn  img{
+    margin: 0 8px 0 0;
+}

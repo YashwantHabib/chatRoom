@@ -1,0 +1,23 @@
+.Message{
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+}
+.uName{
+    color: white;
+    padding: 0 8px;
+    font-size: 0.6em;
+}
+.msgText{
+    color: black;
+    padding:  8px 16px;
+    background-color: rgba(255, 255, 255, 0.858);
+    width: fit-content;
+    border-radius: 2em;
+    font-size: 0.8em;
+}
+.sent{
+    align-items: end;
+}
+.received{
+}

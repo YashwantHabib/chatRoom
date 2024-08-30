@@ -1,0 +1,55 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #252525;
+  font-family: "Montserrat", sans-serif;
+}
+
+#root{
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  width: 800px;
+  height: 700px;
+  border: 1px outset rgba(58, 58, 58, 0.8);
+  background: transparent;
+  border-radius: 15px;
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(54, 54, 54, 0.44);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.card .content {
+  position: absolute;
+  color: #bfbfbf;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+

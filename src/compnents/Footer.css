@@ -1,0 +1,31 @@
+.footer{
+    padding: 8px 24px;
+    display: flex;
+    flex: 0 1 auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.237);
+    border-radius: 0 0 1em 1em;
+}
+
+.msgBox{
+    flex: 1 1 auto;
+    background-color: transparent;
+    border: none;
+    padding: 0 8px;
+    font-size: medium;
+    color: azure;
+}
+.msgBox:focus{
+    outline: none;
+}
+
+.sendBtn{
+    flex: 0 1 auto;
+    margin: 8px;
+    letter-spacing: 2px;
+    padding: 8px 12px;
+    border-radius: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(255,255,255,0.263);
+    backdrop-filter: blur(30px);
+    cursor: pointer;
+}
