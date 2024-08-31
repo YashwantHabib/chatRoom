@@ -8,12 +8,12 @@ import {getFirestore} from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_apiKey,
-  authDomain: import.meta.env.VITE_authDomain,
-  projectId: import.meta.env.VITE_projectId,
-  storageBucket: import.meta.env.VITE_storageBucket,
-  messagingSenderId: import.meta.env.VITE_messagingSenderId,
-  appId: import.meta.env.VITE_appId
+  apiKey: "AIzaSyDKKM40Y3oImZhJijn1O0X4KMwPJiINXz0",
+  authDomain: "chatroom-42ac4.firebaseapp.com",
+  projectId: "chatroom-42ac4",
+  storageBucket: "chatroom-42ac4.appspot.com",
+  messagingSenderId: "241548346360",
+  appId: "1:241548346360:web:d4e9e6f286b40f54fe4c0d"
 };
 
 // Initialize Firebase
